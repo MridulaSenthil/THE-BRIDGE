@@ -141,15 +141,15 @@
     </div>
     {% endfor %}
 </div>
-
 <div class="footer">
     <div class="footer-content">
         <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Bridge Logo">
-         <p>CONTACT US | 9875879104 | connectbridge2us@gmail.com</p>
-         <p>All rights reserved © 2025 BRIDGE</p>
+        <div class="footer-text">
+            <p style="font-size: 12px;">CONTACT US | 9875879104 | connectbridge2us@gmail.com</p>
+            <p style="margin-top: 10px; font-size: 12px;">All rights reserved © 2025 BRIDGE</p>
+        </div>
     </div>
 </div>
-
 <script>
     // Function to send the status update to the backend
     function updateStatus(orderId, newStatus) {
